@@ -1,0 +1,83 @@
+<html>
+<head>
+    <title>Calculator</title>
+</head>
+<body>
+    <link rel = "stylesheet" href = "style.css">
+    <h1><i>Calculator</i></h1>
+    
+    <div class = "input">
+       <p id = "ti" style="right:200px;">TI 84 Plus CE</p> 
+        <input type = "text" value = "" id = "output" readonly>
+    </div>
+   <div class = "calculator">
+    
+        <input type = button onclick = "clr()" value = "CE" id = "button"></button>
+        <input type = button onclick = "del()" value = "DE" id = "button"></button>
+         <input type = button onclick = "displayInput('/')" value = "÷" id = "button"></button>
+    
+    <div class = "operations"> 
+        <input type = button onclick = "displayInput('+')" value = "+" id = "button"></button>
+        <input type = button onclick = "displayInput('-')" value = "-" id = "button"></button>
+        <input type = button onclick = "displayInput('*')" value =  "*" id = "button"></button>
+       
+    <div class = "numbers02">
+        
+        <input type = button  onclick = "displayInput('1')"  value = "1" id = "button"></button>
+        <input type = button  onclick = "displayInput('2')"  value = "2" id = "button"></button>
+        <input type = button  onclick = "displayInput('3')"  value = "3" id = "button"></button> 
+    <div class = "numbers36">
+        <input type = button  onclick = "displayInput('4')" value = "4" id = "button"></button>
+        <input type = button onclick = "displayInput('5')"  value = "5" id = "button"></button>   
+        <input type = button  onclick = "displayInput('6')" value = "6" id = "button"></button> 
+    <div class = "number79"></div>  
+        <input type = button onclick = "displayInput('7')" value = "7" id = "button"></button> 
+        <input type = button onclick = "displayInput('8')" value = "8" id = "button"></button> 
+        <input type = button onclick = "displayInput('9')" value = "9" id = "button"></button>   
+    <div class = "0">
+        <input type = button onclick = "displayInput('.')" value = "." id = "button"></button>
+        <input type = button onclick = "displayInput('0')" value = "0" id = "button"></button>
+        <input type = button onclick = "calculate()" value = "=" id = "button"></button>
+    <div class = "outline">
+        <svg width="250" height="420" xmlns="http://www.w3.org/2000/svg">
+        <rect x="10" y="10" width="230" height="410" rx="20" ry="20" fill="#1C1A1A" />
+        </svg>
+
+        </div>
+        <div class = "outliner">
+            <svg width="300" height="440" xmlns="http://www.w3.org/2000/svg">
+            <rect x="10" y="10" width="250" height="430" rx="20" ry="20" fill="#FFFFFF" />
+            </svg>
+    
+            </div>
+     </div>
+    </div>
+    </div>
+    </div> 
+    </div>
+      <div class = "texas">
+        <h2>T<br>
+            E<br>
+            X<br>
+            A<br>
+            S</h2>
+      </div>
+      <div class = "instruments">
+        <h3>I<br>
+            N<br>
+            S<br>
+            T<br>
+            R<br>
+            U<br>
+            M<br>
+            E<br>
+            N<br>
+            T<br>
+            S</h3>
+      </div>
+    <script src = script.js></script>
+    
+   
+    
+</body>
+</html>

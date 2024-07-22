@@ -1,0 +1,104 @@
+@font-face {
+  font-family: 'PDark';
+  src: url('calculator/pdark.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+  background-color: gray;
+}
+h1{
+  text-align:center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(253, 249, 249);
+  text-shadow: 0 0 10px red, 
+  0 0 20px red, 
+  0 0 30px red, 
+  0 0 40px red, 
+  0 0 50px red, 
+  0 0 60px red, 
+  0 0 70px red;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff0000;
+}
+to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff0000, 0 0 80px #ff0000;
+}
+}
+.input{
+  top: 200px;
+  margin: 0 auto;
+  width: 600px;
+  left:86vh;
+  position:absolute;
+  font-size: 11;
+}
+#ti{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: azure;
+  left:6.5vh;
+  top:-4vh;
+  position:absolute;
+}
+#output{
+  height: 50px;
+  width: 200px;
+  border-radius: 15%;
+  border-color: black;
+  border-width: 3px;
+  font-size: 14px;
+}
+.calculator{
+    top:300px;
+    position: absolute;
+    margin:0 auto;
+    width:600px;
+    left:87vh;
+    top:37vh
+}
+.operations{
+  margin:0 auto;
+  width: 600px;
+  
+}
+#button{
+  background-color:rgb(104, 104, 201);
+  width: 60px;
+  height: 30px;
+  border-radius: 20%;
+}
+svg{
+  margin: 0 auto;
+  position:relative;
+  left:-30px;
+  top:-41vh;
+  z-index: -1;
+}
+.outliner svg{
+  z-index: -2;
+  position: absolute;
+  top: -23vh;
+  left: -40px; 
+}
+.texas{
+  left:20px;
+  position:absolute;
+  font-size: 120px;
+  top:-20vh;
+  color:rgb(224, 137, 5);
+  font-family: 'PDark', sans-serif;
+}
+.instruments{
+  top:-8vh;
+  right:20px;
+  position:absolute;
+  font-size: 65px;
+  color:rgb(224, 137, 5);
+  font-family: 'PDark', sans-serif;
+}
